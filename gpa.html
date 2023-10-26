@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA</title>
+    <link rel="stylesheet" href="cgpa.css">
+    <link rel="icon" type="icon" href="icon.ico" sizes="16x16">
+    <script src="gpa.js"></script>
+</head>
+<body>
+    <h1 class="title">CGPA & GPA Calculator</h1>
+    <p id="tips">this calculator is made for student of diploma in IT</p>
+    <form class="y1s1" name="input" id="input" action="">
+        <div id="info" class="disappear">
+            <div id="gpa">
+                <label class="courses" for="pcd"><span>AACS1074</span>PROGRAMMING CONCEPT AND DESIGN I</label>
+                <input type="number" name="pcd" id="pcd" min="0" max="100" required>
+
+                <label class="courses" for="it"><span>AACS1473</span>INTRODUCTION TO INFORMATION TECHNOLOGY</label>
+                <input type="number" name="it" id="it" min="0" max="100" required>
+
+                <label class="courses" for="web"><span>AACS1483</span>WEB DESIGN AND DEVELOPMENT</label>
+                <input type="number" name="web" id="web" min="0" max="100" required>
+
+                <label class="courses" for="cal"><span>AAMS1623</span>CALCULUS AND ALGEBRA</label>
+                <input type="number" name="cal" id="cal" min="0" max="100" required>
+
+                <label class="courses" for="eng"><span>AJEL1713</span>ENGLISH FOR TERTIARY STUDIES</label>
+                <input type="number" name="eng" id="eng" min="0" max="100" required>
+
+
+                <label class="courses" for="eti"><span>MPU-2123</span>PENGHAYATAN ETIKA DAN PERADABAN</label>
+                <input type="number" name="eti" id="eti" min="0" max="100" required>
+                
+            </div>
+        </div>
+        <input type="button" value="calculate" class="btn" onclick="calculate()">
+        <!-- <button class="btn">calculate</button> -->
+    </form>
+        <div class="result"></div>
+    <footer id="footer">
+        <div>Developer: KEN</div>
+    </footer>
+
+</body>
+</html>

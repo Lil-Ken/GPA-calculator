@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA</title>
+    <link rel="stylesheet" href="cgpa.css">
+    <link rel="icon" type="icon" href="icon.ico" sizes="16x16">
+</head>
+<body>
+    <h1 class="title">CGPA & GPA Calculator</h1>
+    <p id="tips">this calculator is made for student of diploma in IT</p>
+    <form name="input" id="input" action="gpa.html" method="get">
+        <div id="info">
+            <div id="gpa">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="year">year:</label>
+                        </td>
+                        <td>
+                            <select name="year" id="year">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sem">semester:</label>
+                        </td>
+                        <td>
+                            <select name="sem" id="sem">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <button class="btn">Start</button>
+    </form>
+    
+    <footer id="footer">
+        <div>Developer: KEN</div>
+    </footer>
+    <script src="gpa.js">
+    </script>
+</body>
+</html>

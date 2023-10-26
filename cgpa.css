@@ -1,0 +1,167 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+body {
+    font-family:'Courier New', Courier, monospace;
+    color: #f5fffa;
+    background: #0F0F0F;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80%;
+}
+
+#input{
+    padding-bottom: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#tips{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    color: gray;
+    font-weight: bold;
+}
+
+h1.title{
+    padding-top: 10px;
+}
+
+#info {
+    background-color: #40404099;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    max-width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+table{
+    margin: auto;
+}
+
+label{
+    font-size: 30px;
+}
+
+#info:hover{
+    background-color: #353535;
+    .title{
+        color: #f5fffa;
+    }
+}
+
+.courses{
+    display: block;
+    width: 100%;
+    font-size: 25px;
+}
+
+[type=number]{
+    width: 100%;
+}
+
+span{
+    display: block;
+}
+
+.btn{
+    background-color: #40404099;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+#footer{
+    text-align: center;
+    color: black;
+    border: solid 1px black;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    flex-shrink: 0;
+    background: #ffe2e799;
+}
+
+#footer div{
+    display: inline-block;
+    margin: 0px 30px;
+    position: relative;
+    left: 30px;
+}
+
+.result{
+    display: none;
+}
+
+.displayResult{
+    position: fixed;
+    top: 40%;
+    left: 44%;
+    float: left;
+    background-color: #404040dd;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+    color: white;
+    padding: 20px;
+}
+
+@media screen and (max-width: 769px) {
+    html, 
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 80%;
+        font-size: 20px;
+
+    }
+
+    h1.title{
+        min-width: 320px;
+        max-width: 110%;
+        margin: 10px 0px;
+        font-size: 170%;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .displayResult{
+        left: 41%;
+    }
+}
+@media screen and (max-width: 426px) {
+    .displayResult{
+        left: 34%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .displayResult{
+        left: 30%;
+    }
+}
